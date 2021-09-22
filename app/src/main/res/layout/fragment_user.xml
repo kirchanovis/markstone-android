@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.UserFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24sp">
+        <TextView
+            android:id="@+id/title_support"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Поддержка"
+            android:fontFamily="@font/avenir_next_cur"
+            android:textColor="#425060"
+            android:textFontWeight="800"
+            android:layout_marginBottom="20sp"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:id="@+id/delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Доставка"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Условия обмена и возврата"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Публичная оферта"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Оплата"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Возврат товаров"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Клубная карта"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Пользовательское соглашение"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Политика конфиденциальности"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/about_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="О Компании"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:textColor="#425060"
+            android:textFontWeight="800"
+            android:textSize="24sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="О нас"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:fontFamily="@font/avenir_next_cur"
+            android:text="Контакты"
+            android:textColor="#425060"
+            android:textFontWeight="600"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>
